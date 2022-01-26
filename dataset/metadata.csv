@@ -1,0 +1,7 @@
+sampleid,read1,read2
+HBR_Rep1_ERCC-Mix2_Build37-ErccTranscripts-chr22.read,/home/thamle/rnaseq4/input/HBR_Rep1_ERCC-Mix2_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/thamle/rnaseq4/input/HBR_Rep1_ERCC-Mix2_Build37-ErccTranscripts-chr22.read2.fastq.gz
+HBR_Rep2_ERCC-Mix2_Build37-ErccTranscripts-chr22.read,/home/thamle/rnaseq4/input/HBR_Rep2_ERCC-Mix2_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/thamle/rnaseq4/input/HBR_Rep2_ERCC-Mix2_Build37-ErccTranscripts-chr22.read2.fastq.gz
+HBR_Rep3_ERCC-Mix2_Build37-ErccTranscripts-chr22.read,/home/thamle/rnaseq4/input/HBR_Rep3_ERCC-Mix2_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/thamle/rnaseq4/input/HBR_Rep3_ERCC-Mix2_Build37-ErccTranscripts-chr22.read2.fastq.gz
+UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read,/home/thamle/rnaseq4/input/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/thamle/rnaseq4/input/UHR_Rep1_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.fastq.gz
+UHR_Rep2_ERCC-Mix1_Build37-ErccTranscripts-chr22.read,/home/thamle/rnaseq4/input/UHR_Rep2_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/thamle/rnaseq4/input/UHR_Rep2_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.fastq.gz
+UHR_Rep3_ERCC-Mix1_Build37-ErccTranscripts-chr22.read,/home/thamle/rnaseq4/input/UHR_Rep3_ERCC-Mix1_Build37-ErccTranscripts-chr22.read1.fastq.gz,/home/thamle/rnaseq4/input/UHR_Rep3_ERCC-Mix1_Build37-ErccTranscripts-chr22.read2.fastq.gz
