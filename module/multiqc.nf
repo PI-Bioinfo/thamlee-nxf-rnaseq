@@ -16,6 +16,7 @@ process multiqc {
     path report_dupradar
     path report_featurecount
     path report_deseq2
+    path results_deseq2
     path report_gprofiler
 
     output:

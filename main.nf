@@ -51,5 +51,17 @@ workflow {
     merge_featurecount(featurecount.out.countout.collect())
     deseq2(merge_featurecount.out.merged_counts, design_csv, compare_ch)
     gprofiler(deseq2.out.results_deseq2)
-    multiqc(fastqc.out.report_qc.collect(), trim_galore.out.report_trim.collect(), trim_galore.out.report_trim_qc.collect(), star.out.report_star.collect(), rseqc.out.report_rseqc.collect(), qualimap.out.report_qualimap.collect(), picard.out.report_picard.collect(), preseq.out.report_preseq.collect(), dupradar.out.report_dupradar.collect(), featurecount.out.report_featurecount.collect(), deseq2.out.report_deseq2.collect(), gprofiler.out.report_gprofiler.collect())
+    multiqc(fastqc.out.report_qc.collect(), \
+            trim_galore.out.report_trim.collect(), \
+            trim_galore.out.report_trim_qc.collect(), \
+            star.out.report_star.collect(), \
+            rseqc.out.report_rseqc.collect(), \
+            qualimap.out.report_qualimap.collect(), \
+            picard.out.report_picard.collect(), \
+            preseq.out.report_preseq.collect(), \
+            dupradar.out.report_dupradar.collect(), \
+            featurecount.out.report_featurecount.collect(), \
+            deseq2.out.report_deseq2.collect(), \
+            deseq2.out.results_deseq2.collect(), \
+            gprofiler.out.report_gprofiler.collect())
 }
